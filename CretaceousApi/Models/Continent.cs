@@ -1,10 +1,8 @@
 namespace CretaceousApi.Models;
 
-public class Animal
+public class Continent
 {
-  public int AnimalId { get; set; }
+  public int ContinentId { get; set; }
   public string Name { get; set; }
-  public string Species { get; set; }
-  public int Age { get; set;}
   public ICollection<ContinentAnimal> JoinEntities { get; set; }
 }
